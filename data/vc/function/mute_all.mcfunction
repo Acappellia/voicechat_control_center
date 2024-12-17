@@ -1,0 +1,1 @@
+execute as @a run function vc:private/mute_trigger
