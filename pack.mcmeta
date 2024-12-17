@@ -1,0 +1,19 @@
+{
+    "pack": {
+        "pack_format": 48,
+        "description": [
+            {
+                "text": "Simple Voice Chat ",
+                "color": "blue"
+            },
+            {
+                "text": "control tool",
+                "color": "white"
+            },
+            {
+                "text": "\nv1 - MC 1.21.1",
+                "color": "gray"
+            }
+        ]
+    }
+}
