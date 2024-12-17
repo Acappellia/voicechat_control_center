@@ -1,0 +1,1 @@
+$setblock 0 -63 0 command_block{Command:"lp user $(name) permission set voicechat.speak false",auto:true}
