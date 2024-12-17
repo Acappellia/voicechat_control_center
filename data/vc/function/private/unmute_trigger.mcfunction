@@ -10,4 +10,4 @@ data modify storage vc:tmp player.name set from block 0 -64 0 Items[0].component
 ## run command
 tag @s remove vc_mute
 function vc:private/unmute_runcommand with storage vc:tmp player
-schedule function vc:private/clear_blocks 1t
+schedule function vc:private/clear_blocks 2t
