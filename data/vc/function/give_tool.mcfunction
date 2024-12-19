@@ -3,5 +3,6 @@ give @s silence_armor_trim_smithing_template[hide_additional_tooltip={},custom_d
 '[{"text": ""}]',\
 '[{"text": "【使用方法】","color": "#a5ffcf","italic": false}]',\
 '[{"text": "  - 准心对准一名玩家查看他的发言状态","color": "white","italic": false}]',\
-'[{"text": "  - 右键点击切换该玩家的发言状态","color": "white","italic": false}]'\
+'[{"text": "  - 右键点击切换该玩家的发言状态","color": "white","italic": false}]',\
+'[{"text": "  - 潜行时改为查看和修改自己的状态","color": "white","italic": false}]'\
 ]]

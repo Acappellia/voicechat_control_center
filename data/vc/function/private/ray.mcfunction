@@ -1,2 +1,2 @@
 tag @p[tag=!vc_controller,distance=..2] add vc_controller_target
-execute if entity @s[distance=..30] unless entity @p[tag=vc_controller_target,distance=..30] positioned ^ ^ ^1 run function vc:private/ray
+execute if entity @s[distance=..50] unless entity @p[tag=vc_controller_target,distance=..50] positioned ^ ^ ^1 run function vc:private/ray
