@@ -11,12 +11,6 @@
                     }
                 }
             }
-        },
-        "type_specific": {
-            "type": "player",
-            "looking_at": {
-                "type": "player"
-            }
         }
     }
 }
