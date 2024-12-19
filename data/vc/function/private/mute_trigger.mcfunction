@@ -8,6 +8,8 @@ item modify block 0 -64 0 container.0 vc:set_skull
 data modify storage vc:tmp player.name set from block 0 -64 0 Items[0].components."minecraft:profile".name
 
 ## run command
+tag @s remove vc_unmute
 tag @s add vc_mute
 function vc:private/mute_runcommand with storage vc:tmp player
+tellraw @s [{"text": "[voicechat] ","color": "#a5ffcf"},{"text": "语音限制中","color": "gold"}]
 schedule function vc:private/clear_blocks 2t

@@ -9,5 +9,7 @@ data modify storage vc:tmp player.name set from block 0 -64 0 Items[0].component
 
 ## run command
 tag @s remove vc_mute
+tag @s add vc_unmute
 function vc:private/unmute_runcommand with storage vc:tmp player
+tellraw @s [{"text": "[voicechat] ","color": "#a5ffcf"},{"text": "语音限制已解除","color": "green"}]
 schedule function vc:private/clear_blocks 2t

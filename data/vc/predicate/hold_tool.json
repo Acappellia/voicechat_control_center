@@ -1,0 +1,22 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items": "silence_armor_trim_smithing_template",
+                "components": {
+                    "custom_data": {
+                        "vc_tool": 1
+                    }
+                }
+            }
+        },
+        "type_specific": {
+            "type": "player",
+            "looking_at": {
+                "type": "player"
+            }
+        }
+    }
+}
