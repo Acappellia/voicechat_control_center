@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "controller_use": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "custom_data": {
+                            "vc_tool": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+       "function": "vc:private/controller_trigger"
+    }
+}
