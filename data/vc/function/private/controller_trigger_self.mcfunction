@@ -7,8 +7,5 @@ execute if entity @s[tag=vc_mute] run playsound block.copper_bulb.turn_off playe
 execute if entity @s[tag=vc_unmute] run playsound block.copper_bulb.turn_on player @s ~ ~ ~ 1 1
 
 ## show title
-title @s clear
-title @s times 0 5 2
-execute if entity @s[tag=vc_mute,distance=..50] run title @s subtitle [{"selector": "@s"},{"text": " | ","color": "gray"},{"text": "🎙","color": "white"},{"text": "×","color": "red"}]
-execute if entity @s[tag=vc_unmute,distance=..50] run title @s subtitle [{"selector": "@s"},{"text": " | ","color": "gray"},{"text": "🎙","color": "white"},{"text": "√","color": "green"}]
-title @s title " "
+execute if entity @s[tag=vc_mute,distance=..50] run title @s actionbar [{"selector": "@s","bold": true},{"text": " | ","color": "gray","bold": false},{"text": "🎙","color": "white","bold": true},{"text": "×","color": "red","bold": false}]
+execute if entity @s[tag=vc_unmute,distance=..50] run title @s actionbar [{"selector": "@s","bold": true},{"text": " | ","color": "gray","bold": false},{"text": "🎙","color": "white","bold": true},{"text": "√","color": "green","bold": false}]
