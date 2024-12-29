@@ -7,4 +7,4 @@ execute as @r[scores={vc_logout=1..}] run function vc:private/player_rejoin
 execute as @r[tag=to_mute] run function vc:private/all_mute_trigger
 execute as @r[tag=to_unmute] run function vc:private/all_unmute_trigger
 
-schedule function vc:private/4gt_tick 10t replace
+schedule function vc:private/4gt_tick 25t replace
