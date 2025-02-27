@@ -1,1 +1,2 @@
-$setblock 0 -63 0 command_block{Command:"lp user $(name) parent settrack voice u_voice_mute",auto:true}
+$setblock 0 -63 0 command_block{Command:"lp user $(name) permission unset voicechat.speak",auto:true}
+#$setblock 0 -63 0 command_block{Command:"lp user $(name) parent settrack voice u_voice_mute",auto:true}
